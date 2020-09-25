@@ -1,0 +1,40 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: grey;
+}
+
+.content {
+    /* Margin left and right should be the same as sidebar width */
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.sidebar {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow: hidden;
+}
+
+#about {
+    color: #fff;
+}
+
+#arela {
+    color: #fff;
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+#arela:hover {
+    text-decoration: underline;
+}
